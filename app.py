@@ -26,7 +26,7 @@ pareto_df = pd.DataFrame(
 # =====================================================
 # Load Dataset
 # =====================================================
-data = pd.read_csv("delhi_metro_updated2.0.csv")
+data = pd.read_csv("delhi_metro_updated2.0 (2).csv")
 data = data[['Distance_km', 'Fare']].dropna()
 
 # =====================================================
