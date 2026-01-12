@@ -15,7 +15,7 @@ st.set_page_config(
 # =====================================================
 # Load Dataset
 # =====================================================
-data = pd.read_csv("delhi_metro_updated2.0.csv")
+data = pd.read_csv("delhi_metro_updated2.0 (2).csv")
 data = data[['Distance_km', 'Fare']].dropna()
 
 distance = data["Distance_km"].values
